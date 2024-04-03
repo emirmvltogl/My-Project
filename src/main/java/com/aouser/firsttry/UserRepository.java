@@ -12,4 +12,9 @@ import org.springframework.stereotype.Repository;
 public interface UserRepository extends MongoRepository<User,ObjectId>{
 public Optional<User>findUserById(String id);
 
+
+
+
+
+
 }
